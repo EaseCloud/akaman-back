@@ -14,4 +14,8 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 
 ROOT_URLCONF = 'akaman.urls'
 
+INSTALLED_APPS += [
+    'core'
+]
+
 WSGI_APPLICATION = 'akaman.wsgi.application'
