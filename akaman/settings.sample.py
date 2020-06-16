@@ -1,7 +1,7 @@
 from .settings_base import *
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'eszm$#b$cav^q&qihd6cv8xmej!c&39u_=l0$kxy_gbft$i$$-'
+SECRET_KEY = '01234567890123456789012345678901234567890123456789'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True

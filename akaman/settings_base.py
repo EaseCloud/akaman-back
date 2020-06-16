@@ -12,10 +12,12 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
-ROOT_URLCONF = 'akaman.urls'
+ROOT_URLCONF = 'core.urls'
 
 INSTALLED_APPS += [
-    'core'
+    'django_base.base_config',
+    'django_base.base_media',
+    'core',
 ]
 
 WSGI_APPLICATION = 'akaman.wsgi.application'
